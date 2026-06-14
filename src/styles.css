@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: dark; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply m-0 bg-forensic-950 text-slate-100 antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  * { box-sizing: border-box; }
+}
+
+@layer components {
+  .forensic-panel {
+    @apply rounded-2xl border border-slate-700/70 bg-slate-900/75 shadow-forensic backdrop-blur;
+  }
+  .cyber-grid {
+    background-size: 34px 34px;
+  }
+}
