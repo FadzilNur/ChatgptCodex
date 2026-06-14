@@ -15,7 +15,6 @@
     "react-dom": "latest",
     "lucide-react": "latest",
     "recharts": "latest",
-    "class-variance-authority": "latest",
     "clsx": "latest",
     "tailwind-merge": "latest"
   },

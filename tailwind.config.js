@@ -3,27 +3,23 @@ export default {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      colors: {
+        ink: '#050b14',
+        navy: '#07111f',
+        panel: '#0b1728',
+        line: '#1e344f',
+        cyan: '#38bdf8',
+      },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
-      colors: {
-        forensic: {
-          950: '#050b14',
-          900: '#07111f',
-          850: '#0b1728',
-          800: '#102033',
-          700: '#1d334d',
-          cyan: '#38bdf8',
-          blue: '#2563eb',
-          steel: '#94a3b8',
-        },
-      },
       boxShadow: {
-        forensic: '0 24px 80px rgba(2, 8, 23, 0.45)',
-        glow: '0 0 40px rgba(56, 189, 248, 0.12)',
+        forensic: '0 22px 70px rgba(2, 8, 23, 0.46)',
+        glow: '0 0 36px rgba(56, 189, 248, 0.16)',
       },
       backgroundImage: {
-        'forensic-grid': 'linear-gradient(rgba(56,189,248,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(56,189,248,.06) 1px, transparent 1px)',
+        mesh: 'radial-gradient(circle at 20% 15%, rgba(56,189,248,.18), transparent 28%), radial-gradient(circle at 80% 10%, rgba(37,99,235,.14), transparent 24%), linear-gradient(135deg, #050b14 0%, #07111f 45%, #111827 100%)',
+        grid: 'linear-gradient(rgba(148,163,184,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,.055) 1px, transparent 1px)',
       },
     },
   },
