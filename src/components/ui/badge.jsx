@@ -1,0 +1,2 @@
+import { cn } from '../../lib/utils'
+export function Badge({ className, tone='slate', ...props }) { const tones={sky:'bg-sky-500/15 text-sky-200 border-sky-400/40',emerald:'bg-emerald-500/15 text-emerald-200 border-emerald-400/40',amber:'bg-amber-500/15 text-amber-200 border-amber-400/40',rose:'bg-rose-500/15 text-rose-200 border-rose-400/40',slate:'bg-slate-500/15 text-slate-200 border-slate-400/30'}; return <span className={cn('inline-flex rounded-full border px-2.5 py-1 text-xs font-medium', tones[tone], className)} {...props}/> }
